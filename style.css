@@ -1,0 +1,63 @@
+
+/* 
+DB2B39 rose madder
+29335C space cadet
+f3a712 marigold
+f0cea0 deep champagne
+534d41 dark lava
+*/
+
+/* Global Style  */
+body{
+    color: #29335c;
+    background-color: #f3a712;
+}
+
+img{
+    width 300px;
+}
+
+
+a {
+    color: #db2b39;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+/* profile */
+header{
+    background: #f0cea0;
+        
+}
+
+
+/* projects */
+.projects{
+
+}
+.projects a{}
+
+.projects .btn {
+    color: black;
+    background-color: blue;
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 4px;
+}
+
+.projects a:hover {
+    background-color: ;
+}
+
+/* work experance */
+
+/* education*/
+
+/* contact info*/
+footer{
+    background: ;
+}
