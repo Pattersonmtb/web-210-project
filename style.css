@@ -8,9 +8,18 @@ f0cea0 deep champagne
 */
 
 /* Global Style  */
+html{
+    box-sizing: border-box;
+}
+
+*, *;before, *;after{
+    box-sizing: inherit;
+}
 body{
     color: #29335c;
     background-color: #f3a712;
+   
+
 }
 
 img{
@@ -26,18 +35,26 @@ a:hover {
     text-decoration: none;
 }
 
-
-
+li{
+    list-style-type: none;
+}
+h2{
+    text-size-adjust: 20px;
+    text-decoration: underline;
+}
 /* profile */
 header{
     background: #f0cea0;
-        
+   text-align: center;
+    text-shadow: 1px 1px 2px #db2b39;
+    text-emphasis-style: bold;
 }
 
 
 /* projects */
 .projects{
-
+    float: left;
+   text-align: center;
 }
 .projects a{}
 
@@ -47,17 +64,32 @@ header{
     text-decoration: none;
     padding: 9px;
     border-radius: 4px;
+    
 }
 
 .projects a:hover {
     background-color: ;
 }
 
+section{
+     
+}
 /* work experance */
+.work{
+  text-align: center;
+    margin-top: 50px;
+}
 
 /* education*/
+.education{
+    text-align: center;
+    margin-top: 50px;
+}
 
 /* contact info*/
 footer{
-    background: ;
+    background: #f0cea0;
+    clear: left;
+    text-align: center;
+    
 }
